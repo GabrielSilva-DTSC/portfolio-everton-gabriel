@@ -1,6 +1,6 @@
 # Everton Gabriel — portfólio
 
-Site autoral em português sobre a trajetória de Everton Gabriel: Cubatão, Administração, iniciação científica, Ciência de Dados na UFPB e mobilização estudantil.
+Site autoral em português sobre a minha trajetória: Administração, iniciação científica, Ciência de Dados na UFPB e mobilização estudantil.
 
 As fotos fornecidas por Everton estão integradas à abertura, às experiências da ETEC, à comunidade e à seção pessoal. O CIAPE tem capturas reais da interface. As galerias complementares podem ser abertas e cada imagem pode ser ampliada.
 
