@@ -1,12 +1,10 @@
 # Everton Gabriel — portfólio
 
-Site autoral em português sobre a trajetória de Everton Gabriel: Cubatão, Administração, iniciação científica, Ciência de Dados na UFPB e mobilização estudantil.
+Sou Everton Gabriel, estudante de Ciência de Dados para Negócios na UFPB. Neste portfólio reúno projetos de dados, pesquisa e comunicação, além de experiências em Administração e mobilização estudantil.
 
-As fotos fornecidas por Everton estão integradas à abertura, às experiências da ETEC, à comunidade e à seção pessoal. O CIAPE tem capturas reais da interface. As galerias complementares podem ser abertas e cada imagem pode ser ampliada.
+Incluí fotos da minha trajetória na ETEC e na UFPB e capturas reais do CIAPE. As galerias podem ser abertas para ver cada registro em tamanho maior.
 
-O posicionamento é aberto a diferentes programas de embaixadores, processos seletivos e entrevistas de empresas juniores. A apresentação destaca projetos, contribuições individuais e trabalho em equipe, sem direcionamento exclusivo a uma marca ou promessa de vínculo ainda não existente.
-
-Versão pública: [gabrielsilva-dtsc.github.io/portfolio-everton-gabriel/](https://gabrielsilva-dtsc.github.io/portfolio-everton-gabriel/). O escopo do CIAPE foi conferido na interface publicada em 27/09/2026. A apresentação do TCC foi complementada com os diários de bordo de 2024, roteiros, análises e protótipo fornecidos por Everton, incluindo sua participação na pesquisa e na integração de planilhas e Power BI aos modelos de site. Os documentos internos, as avaliações pessoais e os dados financeiros não são publicados. As demonstrações registradas não são tratadas como comprovação de adoção permanente ou de impacto financeiro. Os demais detalhes técnicos e as evidências aguardam revisão. O conteúdo vem do briefing, das respostas de Everton e dos materiais revisados, sem equivaler a uma auditoria independente dos resultados.
+Versão pública: [gabrielsilva-dtsc.github.io/portfolio-everton-gabriel/](https://gabrielsilva-dtsc.github.io/portfolio-everton-gabriel/).
 
 ## Rodar
 
@@ -49,7 +47,7 @@ Os temas compartilham fontes e medidas. As classes `theme-admin`, `theme-researc
 
 ## Materiais e privacidade
 
-As regras de imagem estão em [MEDIA_POLICY.md](MEDIA_POLICY.md): preservar pessoas, ambientes e contexto; permitir remoção de fundo somente nos retratos; recortar nos prints as informações da tela. `src/data/media.ts` guarda legendas, descrições acessíveis e créditos. `MediaFigure.astro` reserva as dimensões e usa versões WebP responsivas. A abertura carrega com prioridade; os demais registros carregam sob demanda. `MediaGallery.astro` usa a abertura nativa de HTML, acessível por teclado e funcional sem JavaScript.
+Defini as regras de imagem em [MEDIA_POLICY.md](MEDIA_POLICY.md): preservar pessoas, ambientes e contexto; permitir remoção de fundo somente nos retratos; recortar nos prints as informações da tela. `src/data/media.ts` guarda legendas, descrições acessíveis e créditos. `MediaFigure.astro` reserva as dimensões e usa versões WebP responsivas. A abertura carrega com prioridade; os demais registros carregam sob demanda. `MediaGallery.astro` usa a abertura nativa de HTML, acessível por teclado e funcional sem JavaScript.
 
 As cópias para ampliação preservam sem perdas os pixels da foto ou do recorte selecionado. As versões de carregamento usam compressão de alta qualidade. O retrato da abertura teve o fundo removido com a ferramenta de edição de imagens; os demais registros não receberam reconstrução ou retoques.
 
@@ -57,9 +55,9 @@ Os arquivos preparados já estão em `public/media/`; o build não precisa dos Z
 
 Originais devem ficar em `evidencias-privadas/` ou fora do projeto. Essa pasta, o briefing, a referência visual e o controle editorial local estão no `.gitignore`. Nenhum arquivo entregue é publicado automaticamente.
 
-Só copiar derivados autorizados para `public/media/`. `public/` é copiada para o site: não guardar originais ali. Fotografias têm `alt`, legenda, data/contexto quando conhecidos, crédito e dimensões. As fotos e os prints desta versão foram selecionados a pedido de Everton; os certificados e documentos originais não são publicados.
+Só copiar derivados autorizados para `public/media/`. `public/` é copiada para o site: não guardar originais ali. Fotografias têm `alt`, legenda, data/contexto quando conhecidos, crédito e dimensões. Selecionei as fotos e os prints desta versão; meus certificados e documentos originais não estão publicados.
 
-O arquivo local `CONTENT_CHECKLIST.md` reúne as pendências. Ao iniciar uma cópia nova a partir do futuro repositório público, criar um controle editorial local equivalente para os novos materiais.
+O arquivo local `CONTENT_CHECKLIST.md` reúne as pendências. Ao clonar este repositório, criar um controle editorial local equivalente para os novos materiais.
 
 ## Verificação
 
@@ -87,9 +85,9 @@ O domínio do exemplo serve apenas para o teste local. O último comando restaur
 
 ## Publicação
 
-Este repositório usa o conteúdo de `Site/` como raiz. Na pasta de trabalho original, não executar comandos Git no diretório superior: aquele Git pertence à pasta pessoal, não a este projeto.
+Este repositório usa o conteúdo de `Site/` como raiz. Na minha pasta de trabalho original, o Git do diretório superior pertence à pasta pessoal, não a este projeto.
 
-O repositório público é [GabrielSilva-DTSC/portfolio-everton-gabriel](https://github.com/GabrielSilva-DTSC/portfolio-everton-gabriel). O GitHub Pages usa **GitHub Actions** como fonte. O workflow `.github/workflows/deploy.yml` é manual: depois de enviar alterações para `main`, executá-lo na aba **Actions** para atualizar o site. A configuração obtém a conta e o nome do repositório de `GITHUB_REPOSITORY`; repositórios `<usuario>.github.io` usam a raiz, os demais usam `/<repositorio>/`. `SITE_URL` e `BASE_PATH` permitem configurações explícitas, inclusive domínio próprio (nesse caso, definir também `BASE_PATH=/`).
+Publiquei o site em [GitHub Pages](https://gabrielsilva-dtsc.github.io/portfolio-everton-gabriel/) a partir do repositório [GabrielSilva-DTSC/portfolio-everton-gabriel](https://github.com/GabrielSilva-DTSC/portfolio-everton-gabriel). O GitHub Pages usa **GitHub Actions** como fonte. O workflow `.github/workflows/deploy.yml` é manual: depois de enviar alterações para `main`, executá-lo na aba **Actions** para atualizar o site. A configuração obtém a conta e o nome do repositório de `GITHUB_REPOSITORY`; repositórios `<usuario>.github.io` usam a raiz, os demais usam `/<repositorio>/`. `SITE_URL` e `BASE_PATH` permitem configurações explícitas, inclusive domínio próprio (nesse caso, definir também `BASE_PATH=/`).
 
 O workflow foi baseado na [documentação oficial do Astro para GitHub Pages](https://docs.astro.build/en/guides/deploy/github/). As versões instaladas estão fixadas no `package.json` e no `package-lock.json`.
 
@@ -97,6 +95,6 @@ Publicação inicial em 28/09/2026. A página inicial, a rota do CIAPE e uma ima
 
 ## Créditos e licença
 
-Conteúdo biográfico e acervo fotográfico fornecidos por Everton Gabriel. Registros de redes sociais mantêm a identificação da origem nas legendas e, quando disponível, no próprio conteúdo. Direção visual baseada no briefing e na referência local fornecida para o projeto. Imagem social composta apenas com tipografia e traço vetorial, sem foto ou marca de terceiro. Os documentos originais permanecem privados.
+Forneci as informações sobre minha trajetória e as fotos do meu acervo. Os registros de redes sociais mantêm a identificação da origem nas legendas e, quando disponível, no próprio conteúdo. A direção visual parte do briefing e da referência que compartilhei. A imagem de compartilhamento usa apenas tipografia e traço vetorial, sem foto ou marca de terceiros. Meus documentos originais permanecem privados.
 
-Licença do código: aguardando escolha do autor. As permissões sobre conteúdo, fotos, documentos e fontes são independentes da futura licença do código.
+Licença do código: a definir
