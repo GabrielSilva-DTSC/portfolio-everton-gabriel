@@ -96,4 +96,5 @@ Após publicar, registrar aqui a URL e conferir navegação, imagem social e con
 
 Conteúdo biográfico e acervo fotográfico fornecidos por Everton Gabriel. Registros de redes sociais mantêm a identificação da origem nas legendas e, quando disponível, no próprio conteúdo. Direção visual baseada no briefing e na referência local fornecida para o projeto. Imagem social composta apenas com tipografia e traço vetorial, sem foto ou marca de terceiro. Os documentos originais permanecem privados.
 
-Licença do código: aguardando escolha do autor. As permissões sobre conteúdo, fotos, documentos e fontes são independentes da futura licença do código.
+Licença do código: a definir
+
