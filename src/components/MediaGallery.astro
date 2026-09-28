@@ -1,0 +1,18 @@
+---
+import MediaFigure from './MediaFigure.astro';
+import type { MediaId } from '../data/media';
+interface Props { ids: MediaId[]; label: string; collapsible?: boolean }
+const { ids, label, collapsible = false } = Astro.props;
+---
+{collapsible ? (
+  <details class="media-disclosure">
+    <summary>{label}<span class="media-count">{ids.length} {ids.length === 1 ? 'registro' : 'registros'}</span></summary>
+    <div class="media-gallery media-gallery-archive">
+      {ids.map(id => <MediaFigure id={id} sizes="(max-width: 600px) calc(100vw - 48px), (max-width: 1050px) 42vw, 370px" />)}
+    </div>
+  </details>
+) : (
+  <div class="media-gallery" role="group" aria-label={label}>
+    {ids.map(id => <MediaFigure id={id} />)}
+  </div>
+)}

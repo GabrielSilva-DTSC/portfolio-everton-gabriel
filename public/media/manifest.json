@@ -1,0 +1,408 @@
+{
+  "everton-perfil": {
+    "width": 1170,
+    "height": 1344,
+    "kind": "portrait",
+    "treatment": "background-removed",
+    "original": "media/everton-perfil-original.webp",
+    "src": "media/everton-perfil-1170.webp",
+    "variants": [
+      {
+        "src": "media/everton-perfil-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/everton-perfil-720.webp",
+        "width": 720
+      },
+      {
+        "src": "media/everton-perfil-1170.webp",
+        "width": 1170
+      }
+    ]
+  },
+  "everton-formal": {
+    "width": 1120,
+    "height": 1554,
+    "kind": "portrait",
+    "treatment": "original",
+    "original": "media/everton-formal-original.webp",
+    "src": "media/everton-formal-1120.webp",
+    "variants": [
+      {
+        "src": "media/everton-formal-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/everton-formal-720.webp",
+        "width": 720
+      },
+      {
+        "src": "media/everton-formal-1120.webp",
+        "width": 1120
+      }
+    ]
+  },
+  "recepcao-curso": {
+    "width": 1600,
+    "height": 1200,
+    "kind": "documentary",
+    "treatment": "original",
+    "original": "media/recepcao-curso-original.webp",
+    "src": "media/recepcao-curso-1600.webp",
+    "variants": [
+      {
+        "src": "media/recepcao-curso-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/recepcao-curso-720.webp",
+        "width": 720
+      },
+      {
+        "src": "media/recepcao-curso-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "recepcao-unificada": {
+    "width": 610,
+    "height": 1086,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/recepcao-unificada-original.webp",
+    "src": "media/recepcao-unificada-610.webp",
+    "variants": [
+      {
+        "src": "media/recepcao-unificada-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/recepcao-unificada-610.webp",
+        "width": 610
+      }
+    ]
+  },
+  "doacoes-ufpb": {
+    "width": 610,
+    "height": 458,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/doacoes-ufpb-original.webp",
+    "src": "media/doacoes-ufpb-610.webp",
+    "variants": [
+      {
+        "src": "media/doacoes-ufpb-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/doacoes-ufpb-610.webp",
+        "width": 610
+      }
+    ]
+  },
+  "cracha-recepcao": {
+    "width": 881,
+    "height": 1446,
+    "kind": "documentary",
+    "treatment": "original",
+    "original": "media/cracha-recepcao-original.webp",
+    "src": "media/cracha-recepcao-881.webp",
+    "variants": [
+      {
+        "src": "media/cracha-recepcao-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/cracha-recepcao-720.webp",
+        "width": 720
+      },
+      {
+        "src": "media/cracha-recepcao-881.webp",
+        "width": 881
+      }
+    ]
+  },
+  "ciape-consulta": {
+    "width": 1325,
+    "height": 587,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/ciape-consulta-original.webp",
+    "src": "media/ciape-consulta-1325.webp",
+    "variants": [
+      {
+        "src": "media/ciape-consulta-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/ciape-consulta-720.webp",
+        "width": 720
+      },
+      {
+        "src": "media/ciape-consulta-1325.webp",
+        "width": 1325
+      }
+    ]
+  },
+  "ciape-inicio": {
+    "width": 1325,
+    "height": 584,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/ciape-inicio-original.webp",
+    "src": "media/ciape-inicio-1325.webp",
+    "variants": [
+      {
+        "src": "media/ciape-inicio-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/ciape-inicio-720.webp",
+        "width": 720
+      },
+      {
+        "src": "media/ciape-inicio-1325.webp",
+        "width": 1325
+      }
+    ]
+  },
+  "mural-etec": {
+    "width": 610,
+    "height": 458,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/mural-etec-original.webp",
+    "src": "media/mural-etec-610.webp",
+    "variants": [
+      {
+        "src": "media/mural-etec-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/mural-etec-610.webp",
+        "width": 610
+      }
+    ]
+  },
+  "gremio-equipe": {
+    "width": 610,
+    "height": 459,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/gremio-equipe-original.webp",
+    "src": "media/gremio-equipe-610.webp",
+    "variants": [
+      {
+        "src": "media/gremio-equipe-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/gremio-equipe-610.webp",
+        "width": 610
+      }
+    ]
+  },
+  "gremio-fifa": {
+    "width": 610,
+    "height": 762,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/gremio-fifa-original.webp",
+    "src": "media/gremio-fifa-610.webp",
+    "variants": [
+      {
+        "src": "media/gremio-fifa-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/gremio-fifa-610.webp",
+        "width": 610
+      }
+    ]
+  },
+  "pedagio-social": {
+    "width": 610,
+    "height": 764,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/pedagio-social-original.webp",
+    "src": "media/pedagio-social-610.webp",
+    "variants": [
+      {
+        "src": "media/pedagio-social-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/pedagio-social-610.webp",
+        "width": 610
+      }
+    ]
+  },
+  "doacoes-gremio": {
+    "width": 610,
+    "height": 763,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/doacoes-gremio-original.webp",
+    "src": "media/doacoes-gremio-610.webp",
+    "variants": [
+      {
+        "src": "media/doacoes-gremio-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/doacoes-gremio-610.webp",
+        "width": 610
+      }
+    ]
+  },
+  "halloween-etec": {
+    "width": 610,
+    "height": 763,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/halloween-etec-original.webp",
+    "src": "media/halloween-etec-610.webp",
+    "variants": [
+      {
+        "src": "media/halloween-etec-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/halloween-etec-610.webp",
+        "width": 610
+      }
+    ]
+  },
+  "curso-grafite": {
+    "width": 610,
+    "height": 610,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/curso-grafite-original.webp",
+    "src": "media/curso-grafite-610.webp",
+    "variants": [
+      {
+        "src": "media/curso-grafite-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/curso-grafite-610.webp",
+        "width": 610
+      }
+    ]
+  },
+  "power-drinks": {
+    "width": 610,
+    "height": 610,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/power-drinks-original.webp",
+    "src": "media/power-drinks-610.webp",
+    "variants": [
+      {
+        "src": "media/power-drinks-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/power-drinks-610.webp",
+        "width": 610
+      }
+    ]
+  },
+  "power-prevenda": {
+    "width": 610,
+    "height": 255,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/power-prevenda-original.webp",
+    "src": "media/power-prevenda-610.webp",
+    "variants": [
+      {
+        "src": "media/power-prevenda-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/power-prevenda-610.webp",
+        "width": 610
+      }
+    ]
+  },
+  "forum-comunicacao": {
+    "width": 610,
+    "height": 510,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/forum-comunicacao-original.webp",
+    "src": "media/forum-comunicacao-610.webp",
+    "variants": [
+      {
+        "src": "media/forum-comunicacao-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/forum-comunicacao-610.webp",
+        "width": 610
+      }
+    ]
+  },
+  "capoeira": {
+    "width": 1448,
+    "height": 1086,
+    "kind": "documentary",
+    "treatment": "original",
+    "original": "media/capoeira-original.webp",
+    "src": "media/capoeira-1448.webp",
+    "variants": [
+      {
+        "src": "media/capoeira-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/capoeira-720.webp",
+        "width": 720
+      },
+      {
+        "src": "media/capoeira-1448.webp",
+        "width": 1448
+      }
+    ]
+  },
+  "fundacao-ca-assinatura": {
+    "width": 610,
+    "height": 813,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/fundacao-ca-assinatura-original.webp",
+    "src": "media/fundacao-ca-assinatura-610.webp",
+    "variants": [
+      {
+        "src": "media/fundacao-ca-assinatura-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/fundacao-ca-assinatura-610.webp",
+        "width": 610
+      }
+    ]
+  },
+  "fundacao-ca-grupo": {
+    "width": 610,
+    "height": 458,
+    "kind": "screenshot",
+    "treatment": "original",
+    "original": "media/fundacao-ca-grupo-original.webp",
+    "src": "media/fundacao-ca-grupo-610.webp",
+    "variants": [
+      {
+        "src": "media/fundacao-ca-grupo-360.webp",
+        "width": 360
+      },
+      {
+        "src": "media/fundacao-ca-grupo-610.webp",
+        "width": 610
+      }
+    ]
+  }
+}

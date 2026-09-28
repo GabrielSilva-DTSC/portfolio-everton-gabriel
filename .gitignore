@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+!.env.example
+evidencias-privadas/
+test-results/
+playwright-report/
+*.zip
+/*.png
+/*.jpeg
+/*.jpg
+Briefing_Portfolio_Everton_Codex.md
+CONTENT_CHECKLIST.md

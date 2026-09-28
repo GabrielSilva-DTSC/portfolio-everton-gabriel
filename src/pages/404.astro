@@ -1,0 +1,7 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { localPath } from '../utils/paths';
+---
+<BaseLayout title="Página não encontrada — Everton Gabriel">
+  <section class="not-found wrap"><p class="eyebrow">404 · Fora do percurso</p><h1>Vamos encontrar<br /><em>outro caminho.</em></h1><p>Esta página não foi encontrada.</p><a class="button button-primary" href={localPath()}>Voltar ao início <span aria-hidden="true">↗</span></a></section>
+</BaseLayout>

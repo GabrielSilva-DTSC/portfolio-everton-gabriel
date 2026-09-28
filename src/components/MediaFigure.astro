@@ -1,0 +1,29 @@
+---
+import { getMedia, type MediaId } from '../data/media';
+import { localPath } from '../utils/paths';
+
+interface Props { id: MediaId; priority?: boolean; class?: string; sizes?: string }
+const { id, priority = false, class: className, sizes = '(max-width: 600px) calc(100vw - 48px), (max-width: 1050px) 44vw, 580px' } = Astro.props;
+const media = getMedia(id);
+const srcset = media.variants.map(variant => `${localPath(variant.src)} ${variant.width}w`).join(', ');
+---
+<figure class:list={['media-figure', className]} data-media-id={id}>
+  <a class="media-image-link" href={localPath(media.original)} aria-label={`Ampliar imagem: ${media.caption}`}>
+    <img
+      src={localPath(media.src)}
+      srcset={srcset}
+      sizes={sizes}
+      width={media.width}
+      height={media.height}
+      alt={media.alt}
+      loading={priority ? 'eager' : 'lazy'}
+      fetchpriority={priority ? 'high' : 'auto'}
+      decoding="async"
+    />
+    <span class="media-expand" aria-hidden="true">↗</span>
+  </a>
+  <figcaption>
+    <span class="media-caption">{media.caption}</span>
+    <span class="media-credit">{media.credit}{media.sourceUrl && <> · <a href={media.sourceUrl}>Ver fonte <span aria-hidden="true">↗</span></a></>}</span>
+  </figcaption>
+</figure>
