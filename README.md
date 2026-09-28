@@ -2,11 +2,7 @@
 
 Site autoral em português sobre a minha trajetória: Administração, iniciação científica, Ciência de Dados na UFPB e mobilização estudantil.
 
-As fotos fornecidas por Everton estão integradas à abertura, às experiências da ETEC, à comunidade e à seção pessoal. O CIAPE tem capturas reais da interface. As galerias complementares podem ser abertas e cada imagem pode ser ampliada.
-
-O posicionamento é aberto a diferentes programas de embaixadores, processos seletivos e entrevistas de empresas juniores. A apresentação destaca projetos, contribuições individuais e trabalho em equipe, sem direcionamento exclusivo a uma marca ou promessa de vínculo ainda não existente.
-
-Primeira versão local. URL pública e repositório ainda não configurados. O escopo do CIAPE foi conferido na interface publicada em 27/09/2026. A apresentação do TCC foi complementada com os diários de bordo de 2024, roteiros, análises e protótipo fornecidos por Everton, incluindo sua participação na pesquisa e na integração de planilhas e Power BI aos modelos de site. Os documentos internos, as avaliações pessoais e os dados financeiros não são publicados. As demonstrações registradas não são tratadas como comprovação de adoção permanente ou de impacto financeiro. Os demais detalhes técnicos e as evidências aguardam revisão. O conteúdo vem do briefing, das respostas de Everton e dos materiais revisados, sem equivaler a uma auditoria independente dos resultados.
+As fotos fornecidas por mim w estão integradas à abertura, às experiências da ETEC, à comunidade e à seção pessoal. O CIAPE tem capturas reais da interface. As galerias complementares podem ser abertas e cada imagem pode ser ampliada.
 
 ## Rodar
 
