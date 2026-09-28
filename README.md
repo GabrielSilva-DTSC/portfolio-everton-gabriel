@@ -6,19 +6,18 @@ As fotos fornecidas por Everton estão integradas à abertura, às experiências
 
 O posicionamento é aberto a diferentes programas de embaixadores, processos seletivos e entrevistas de empresas juniores. A apresentação destaca projetos, contribuições individuais e trabalho em equipe, sem direcionamento exclusivo a uma marca ou promessa de vínculo ainda não existente.
 
-Primeira versão local. URL pública e repositório ainda não configurados. O escopo do CIAPE foi conferido na interface publicada em 27/09/2026. A apresentação do TCC foi complementada com os diários de bordo de 2024, roteiros, análises e protótipo fornecidos por Everton, incluindo sua participação na pesquisa e na integração de planilhas e Power BI aos modelos de site. Os documentos internos, as avaliações pessoais e os dados financeiros não são publicados. As demonstrações registradas não são tratadas como comprovação de adoção permanente ou de impacto financeiro. Os demais detalhes técnicos e as evidências aguardam revisão. O conteúdo vem do briefing, das respostas de Everton e dos materiais revisados, sem equivaler a uma auditoria independente dos resultados.
+Versão pública: [gabrielsilva-dtsc.github.io/portfolio-everton-gabriel/](https://gabrielsilva-dtsc.github.io/portfolio-everton-gabriel/). O escopo do CIAPE foi conferido na interface publicada em 27/09/2026. A apresentação do TCC foi complementada com os diários de bordo de 2024, roteiros, análises e protótipo fornecidos por Everton, incluindo sua participação na pesquisa e na integração de planilhas e Power BI aos modelos de site. Os documentos internos, as avaliações pessoais e os dados financeiros não são publicados. As demonstrações registradas não são tratadas como comprovação de adoção permanente ou de impacto financeiro. Os demais detalhes técnicos e as evidências aguardam revisão. O conteúdo vem do briefing, das respostas de Everton e dos materiais revisados, sem equivaler a uma auditoria independente dos resultados.
 
 ## Rodar
 
 Requer Node.js 22.12 ou superior, em versão par suportada (Node 24 recomendado).
 
 ```bash
-cd Site
 npm install
 npm run dev
 ```
 
-Abrir o endereço exibido no terminal, normalmente `http://127.0.0.1:4321`. Se já estiver na pasta `Site`, não repetir o `cd`.
+Executar os comandos na raiz deste repositório (`Site/`, na pasta de trabalho original). Abrir o endereço exibido no terminal, normalmente `http://127.0.0.1:4321`.
 
 ```bash
 npm run build
@@ -88,13 +87,13 @@ O domínio do exemplo serve apenas para o teste local. O último comando restaur
 
 ## Publicação
 
-Usar `Site/` como raiz de um repositório dedicado. Não fazer `git add .` no diretório superior: o Git encontrado durante o início do projeto pertence à pasta pessoal, não a este site.
+Este repositório usa o conteúdo de `Site/` como raiz. Na pasta de trabalho original, não executar comandos Git no diretório superior: aquele Git pertence à pasta pessoal, não a este projeto.
 
-O workflow `.github/workflows/deploy.yml` é manual durante a construção. Após revisar conteúdo, evidências, contato e licença, criar o repositório público dedicado e selecionar **Settings → Pages → Source → GitHub Actions**. Executar o workflow em **Actions**. A configuração obtém a conta e o nome do repositório de `GITHUB_REPOSITORY`; repositórios `<usuario>.github.io` usam a raiz, os demais usam `/<repositorio>/`. `SITE_URL` e `BASE_PATH` permitem configurações explícitas, inclusive domínio próprio (nesse caso, definir também `BASE_PATH=/`).
+O repositório público é [GabrielSilva-DTSC/portfolio-everton-gabriel](https://github.com/GabrielSilva-DTSC/portfolio-everton-gabriel). O GitHub Pages usa **GitHub Actions** como fonte. O workflow `.github/workflows/deploy.yml` é manual: depois de enviar alterações para `main`, executá-lo na aba **Actions** para atualizar o site. A configuração obtém a conta e o nome do repositório de `GITHUB_REPOSITORY`; repositórios `<usuario>.github.io` usam a raiz, os demais usam `/<repositorio>/`. `SITE_URL` e `BASE_PATH` permitem configurações explícitas, inclusive domínio próprio (nesse caso, definir também `BASE_PATH=/`).
 
 O workflow foi baseado na [documentação oficial do Astro para GitHub Pages](https://docs.astro.build/en/guides/deploy/github/). As versões instaladas estão fixadas no `package.json` e no `package-lock.json`.
 
-Após publicar, registrar aqui a URL e conferir navegação, imagem social e contatos no endereço real. A publicação ainda depende da conta autenticada e da revisão do material.
+Publicação inicial em 28/09/2026. A página inicial, a rota do CIAPE e uma imagem responderam com HTTP 200 no endereço público. Conteúdo, evidências, contato e licença seguem sujeitos a revisão editorial antes de futuras atualizações.
 
 ## Créditos e licença
 
